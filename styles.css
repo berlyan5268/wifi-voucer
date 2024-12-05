@@ -1,7 +1,7 @@
 /* Default Styling */
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #031540, #00abf0);
+    background: #031540; /* Menghilangkan warna biru gradasi */
     color: #fff;
     text-align: center;
     margin: 0;
@@ -11,16 +11,13 @@ body {
 
 /* Styling untuk container login */
 .login-container {
-    max-width: 100%;
     width: 100%;
     margin: 0 auto;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.8); /* Menghilangkan bayangan biru */
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     text-align: center;
     box-sizing: border-box;
-    height: 100%;
 }
 
 /* Wifi Icon */
@@ -34,7 +31,6 @@ body {
 @media screen and (max-width: 768px) {
     body {
         padding: 10px;
-        height: 100%;
     }
 
     .login-container {
@@ -61,15 +57,12 @@ body {
 
 /* Styling untuk kontainer utama */
 .container {
-    max-width: 100%;
     width: 100%;
     margin: 0 auto;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.8); /* Menghilangkan bayangan biru */
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     box-sizing: border-box;
-    height: 100%;
 }
 
 .container h1 {
@@ -145,7 +138,6 @@ body {
     color: #fff;
     font-weight: bold;
     transition: background 0.3s;
-    box-sizing: border-box;
 }
 
 .icon:hover {
@@ -171,7 +163,7 @@ footer {
     .container {
         width: 100%;
         margin: 50px auto;
-        padding: 15px;
+        padding: 15px; /* Kurangi padding pada container */
     }
 
     .form-group input {
@@ -213,13 +205,11 @@ footer {
 
 /* Voucher Container */
 .voucher-container {
-    max-width: 100%;
     width: 100%;
     margin: 50px auto;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.8); /* Menghilangkan bayangan biru */
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 .voucher-container h1 {
@@ -256,30 +246,30 @@ footer {
 /* Responsif untuk tabel voucher */
 @media screen and (max-width: 768px) {
     .voucher-container {
-        width: 90%; /* Lebar container lebih kecil */
+        width: 90%;
         margin: 30px auto;
-        padding: 15px; /* Kurangi padding */
+        padding: 15px;
     }
 
     .voucher-table th, .voucher-table td {
-        padding: 10px; /* Kurangi padding pada sel */
-        font-size: 14px; /* Perkecil font */
+        padding: 10px;
+        font-size: 14px;
     }
 }
 
 @media screen and (max-width: 480px) {
     .voucher-container {
-        width: 100%; /* Gunakan seluruh lebar layar */
+        width: 100%;
         margin: 20px auto;
         padding: 10px;
     }
 
     .voucher-table th, .voucher-table td {
-        font-size: 12px; /* Ukuran font lebih kecil untuk layar kecil */
-        padding: 8px; /* Padding lebih kecil */
+        font-size: 12px;
+        padding: 8px;
     }
 
     .voucher-container h1 {
-        font-size: 20px; /* Perkecil heading */
+        font-size: 20px;
     }
 }
