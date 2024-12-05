@@ -1,0 +1,224 @@
+/* Default Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #031540, #00abf0);
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+/* Styling untuk container login */
+.login-container {
+    max-width: 400px; /* Lebar maksimal container */
+    margin: 100px auto; /* Menjaga container tetap di tengah layar dengan margin atas dan bawah */
+    background: rgba(0, 0, 0, 0.8); /* Latar belakang dengan transparansi hitam */
+    padding: 20px; /* Padding untuk memberi jarak antara konten dan tepi container */
+    border-radius: 10px; /* Sudut melengkung pada container */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Menambahkan bayangan lembut untuk efek kedalaman */
+    text-align: center; /* Menyelaraskan teks dan konten di tengah */
+}
+
+/* Styling untuk ikon Wi-Fi */
+.wifi-icon {
+    font-size: 50px; /* Ukuran ikon Wi-Fi */
+    color: #00abf0; /* Warna ikon Wi-Fi */
+    margin-bottom: 20px; /* Memberi jarak antara ikon dan teks di bawahnya */
+}
+
+/* Responsif untuk tampilan lebih kecil */
+@media screen and (max-width: 768px) {
+    .login-container {
+        width: 90%; /* Membuat container lebih lebar di layar kecil */
+        margin-top: 50px; /* Menyesuaikan margin untuk layar kecil */
+        padding: 15px; /* Mengurangi padding agar lebih pas */
+    }
+
+    .wifi-icon {
+        font-size: 40px; /* Menyesuaikan ukuran ikon pada layar kecil */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .wifi-icon {
+        font-size: 30px; /* Menyesuaikan ukuran ikon pada ponsel */
+    }
+}
+
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.container h1 {
+    margin-bottom: 20px;
+}
+
+.container p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    text-align: center; /* Tulisan berada di tengah */
+    color: #333;
+    background: #fff;
+}
+
+.form-group input::placeholder {
+    color: #888; /* Warna placeholder */
+    font-style: italic;
+}
+
+.btn {
+    width: 100%;
+    background: #00abf0;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background: #007bbf;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: background 0.3s;
+    box-sizing: border-box;
+}
+
+.icon:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.icon i {
+    font-size: 24px;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* Responsive Styling */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        width: 100%;
+        margin: 50px auto;
+        padding: 15px;
+    }
+
+    .form-group input {
+        font-size: 16px;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+
+    .icon i {
+        font-size: 20px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .icon {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+.voucher-container {
+    max-width: 500px;
+    margin: 50px auto;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.voucher-container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Voucher Table */
+.voucher-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.voucher-table th, .voucher-table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #444;
+}
+
+.voucher-table th {
+    background: #00abf0;
+    color: #fff;
+}
+
+.voucher-table tr:nth-child(even) {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.voucher-table tr:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
