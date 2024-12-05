@@ -7,43 +7,45 @@ body {
     margin: 0;
     padding: 0;
 }
+
 /* Styling untuk container login */
 .login-container {
-    max-width: 400px; /* Lebar maksimal container */
-    margin: 100px auto; /* Menjaga container tetap di tengah layar dengan margin atas dan bawah */
-    background: rgba(0, 0, 0, 0.8); /* Latar belakang dengan transparansi hitam */
-    padding: 20px; /* Padding untuk memberi jarak antara konten dan tepi container */
-    border-radius: 10px; /* Sudut melengkung pada container */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Menambahkan bayangan lembut untuk efek kedalaman */
-    text-align: center; /* Menyelaraskan teks dan konten di tengah */
+    max-width: 400px;
+    margin: 100px auto;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
 }
 
 /* Styling untuk ikon Wi-Fi */
 .wifi-icon {
-    font-size: 50px; /* Ukuran ikon Wi-Fi */
-    color: #00abf0; /* Warna ikon Wi-Fi */
-    margin-bottom: 20px; /* Memberi jarak antara ikon dan teks di bawahnya */
+    font-size: 50px;
+    color: #00abf0;
+    margin-bottom: 20px;
 }
 
 /* Responsif untuk tampilan lebih kecil */
 @media screen and (max-width: 768px) {
     .login-container {
-        width: 90%; /* Membuat container lebih lebar di layar kecil */
-        margin-top: 50px; /* Menyesuaikan margin untuk layar kecil */
-        padding: 15px; /* Mengurangi padding agar lebih pas */
+        width: 90%;
+        margin-top: 50px;
+        padding: 15px;
     }
 
     .wifi-icon {
-        font-size: 40px; /* Menyesuaikan ukuran ikon pada layar kecil */
+        font-size: 40px;
     }
 }
 
 @media screen and (max-width: 480px) {
     .wifi-icon {
-        font-size: 30px; /* Menyesuaikan ukuran ikon pada ponsel */
+        font-size: 30px;
     }
 }
 
+/* Styling untuk kontainer utama */
 .container {
     max-width: 400px;
     margin: 100px auto;
@@ -62,6 +64,7 @@ body {
     font-size: 16px;
 }
 
+/* Input form */
 .form-group {
     margin-bottom: 15px;
     display: flex;
@@ -76,16 +79,17 @@ body {
     margin-top: 5px;
     box-sizing: border-box;
     font-size: 16px;
-    text-align: center; /* Tulisan berada di tengah */
+    text-align: center;
     color: #333;
     background: #fff;
 }
 
 .form-group input::placeholder {
-    color: #888; /* Warna placeholder */
+    color: #888;
     font-style: italic;
 }
 
+/* Tombol login */
 .btn {
     width: 100%;
     background: #00abf0;
@@ -96,7 +100,6 @@ body {
     cursor: pointer;
     text-transform: uppercase;
     margin-top: 10px;
-    box-sizing: border-box;
     font-size: 16px;
 }
 
@@ -104,6 +107,7 @@ body {
     background: #007bbf;
 }
 
+/* Ikon dan link */
 .icons {
     display: flex;
     flex-direction: column;
@@ -134,12 +138,13 @@ body {
     font-size: 24px;
 }
 
+/* Footer */
 footer {
     margin-top: 20px;
     font-size: 14px;
 }
 
-/* Responsive Styling */
+/* Responsif */
 @media screen and (max-width: 768px) {
     body {
         padding: 10px;
@@ -183,6 +188,8 @@ footer {
         padding: 8px;
     }
 }
+
+/* Voucher Container */
 .voucher-container {
     max-width: 500px;
     margin: 50px auto;
@@ -197,7 +204,7 @@ footer {
     font-size: 24px;
 }
 
-/* Voucher Table */
+/* Tabel voucher */
 .voucher-table {
     width: 100%;
     border-collapse: collapse;
